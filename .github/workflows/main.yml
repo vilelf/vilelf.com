@@ -1,6 +1,9 @@
 name: "Static website deploy"
 
-on: push
+on: 
+  pull-request:
+    branches:
+      - master
 
 jobs:
   deploy:
