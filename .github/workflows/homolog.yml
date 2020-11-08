@@ -15,7 +15,9 @@ jobs:
         uses: actions/checkout@v1
     
       - name: Build
-        run: yarn build
+        run: |
+          yarn
+          yarn build
 
       - name: Deploy to netlify
         uses: netlify/actions/cli@master
