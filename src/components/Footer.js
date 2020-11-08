@@ -14,7 +14,7 @@ const Wrapper = styled.div`
 const Footer = () => {
   return (
     <Wrapper>
-      Made by me 2
+      Made by me
     </Wrapper>
   );
 };
