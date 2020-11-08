@@ -20,7 +20,7 @@ const SubTitle = styled.h2`
 const Header = () => {
   return (
     <>
-      <header id="home">
+      <header>
         <BackgroundImage>
           <Overlay />
         </BackgroundImage>
