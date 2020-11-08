@@ -1,15 +1,19 @@
-import React from 'react';
-import SocialMedia from 'components/SocialMedia'
+import React from "react";
+import SocialMedia from "components/SocialMedia";
+import styled from "styled-components";
+
+const Wrapper = styled.div`
+  display: flex;
+`;
 
 const SocialBox = () => {
   return (
-    <>
-      <SocialMedia socialMedia="github"/>
-      <SocialMedia socialMedia="linkedin"/>
-      <SocialMedia socialMedia="twitter"/>
-    </>
+    <Wrapper>
+      <SocialMedia socialMedia="github" />
+      <SocialMedia socialMedia="linkedin" />
+      <SocialMedia socialMedia="twitter" />
+    </Wrapper>
   );
-
-}
+};
 
 export default SocialBox;

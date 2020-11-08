@@ -1,26 +1,37 @@
-import React from 'react';
-import SocialBox from 'components/SocialBox'
+import React from "react";
+import SocialBox from "components/SocialBox";
+import styled from "styled-components";
+import {BackgroundImage, Overlay, Content} from "style.js"
+
+
+const Title = styled.h1`
+  color: #fff;
+`;
+
+const SubTitle = styled.h2`
+  color: #fff;
+  font-size: 40px;
+
+  @media (max-width: 964px) {
+    font-size: 32px;
+  }
+`;
 
 const Header = () => {
   return (
-    <header id="home">
-      <div className="bg-img">
-        <div className="overlay"></div>
-      </div>
-      <div className="home-wrapper">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-10 col-md-offset-1">
-              <div className="home-content">
-                <h1 className="white-text">vilelf</h1>
-                <SocialBox />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
+    <>
+      <header id="home">
+        <BackgroundImage>
+          <Overlay />
+        </BackgroundImage>
+        <Content>
+          <Title>vilelf</Title>
+          <SubTitle>Backend Engineer & Devops Enthusiast</SubTitle>
+          <SocialBox />
+        </Content>
+      </header>
+    </>
   );
-}
+};
 
 export default Header;
