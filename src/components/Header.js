@@ -26,7 +26,7 @@ const Header = () => {
         </BackgroundImage>
         <Content>
           <Title>vilelf</Title>
-          <SubTitle>Backend Engineer & Devops Enthusiast</SubTitle>
+          <SubTitle>Devops Engineer</SubTitle>
           <SocialBox />
         </Content>
       </header>
