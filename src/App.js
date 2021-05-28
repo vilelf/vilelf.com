@@ -1,22 +1,15 @@
 import React from "react";
-import Header from "components/Header";
-import Stack from "components/Stack";
-import Footer from "components/Footer";
 import "assets/css/style.css";
-import styled from "styled-components";
-
-const Wrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-`;
+import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
+import { Home } from "pages/Home";
 
 const App = () => {
   return (
-    <Wrapper>
-      <Header />
-      <Stack />
-      <Footer />
-    </Wrapper>
+    <Router>
+      <Switch>
+        <Route path="/" exact component={() => <Home />} />
+      </Switch>
+    </Router>
   );
 };
 
