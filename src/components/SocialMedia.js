@@ -14,14 +14,27 @@ const Icon = styled.i`
 
 const SocialMedia = ({socialMedia}) => {
   const sites = {
-    github: 'https://github.com/vilelf/',
-    linkedin: 'https://www.linkedin.com/in/vilelf/',
-    twitter: 'https://twitter.com/vilelf/'
+    "github": {
+      url: 'https://github.com/vilelf/',
+      class: 'fab'
+    }, 
+    "linkedin": {
+      url: 'https://www.linkedin.com/in/vilelf/',
+      class: 'fab'
+    }, 
+    "twitter": {
+      url: 'https://twitter.com/vilelf/',
+      class: 'fab'
+    }, 
+    "file-text": {
+      url: 'https://vilelf.com/fabricio_coelho.pdf',
+      class: 'fa'
+    }, 
   }
 
   return (
-    <Wrapper href={sites[socialMedia]} target="_blank" rel="noopener noreferrer">
-      <Icon className={`fab fa-${socialMedia} fa-2x`} aria-hidden="true" ></Icon>
+    <Wrapper href={sites[socialMedia].url} target="_blank" rel="noopener noreferrer">
+      <Icon className={`${sites[socialMedia].class} fa-${socialMedia} fa-2x`} aria-hidden="true" ></Icon>
     </Wrapper>
   );
 }
