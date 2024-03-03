@@ -1,8 +1,7 @@
 import React from "react";
 import SocialBox from "components/SocialBox";
 import styled from "styled-components";
-import {BackgroundImage, Overlay, Content} from "style.js"
-
+import { BackgroundImage, Content, Overlay } from "style.js";
 
 const Title = styled.h1`
   color: #fff;
@@ -26,7 +25,7 @@ const Header = () => {
         </BackgroundImage>
         <Content>
           <Title>vilelf</Title>
-          <SubTitle>Devops Engineer | SRE</SubTitle>
+          <SubTitle>Platform Engineer | Devops | SRE</SubTitle>
           <SocialBox />
         </Content>
       </header>
