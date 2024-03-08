@@ -1,5 +1,5 @@
-# static-website
+# vilelf.com
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/27914fe6-b28f-4bb9-832f-c0a2f759e0e7/deploy-status)](https://app.netlify.com/sites/vilelf/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6e743fd8-4728-4a50-8bf0-5183282ca58a/deploy-status)](https://app.netlify.com/sites/vilelf/deploys)
 
 My personal website: https://vilelf.com
