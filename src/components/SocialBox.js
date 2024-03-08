@@ -11,7 +11,6 @@ const SocialBox = () => {
     <Wrapper>
       <SocialMedia socialMedia="github" />
       <SocialMedia socialMedia="linkedin" />
-      <SocialMedia socialMedia="twitter" />
       <SocialMedia socialMedia="file-text" />
     </Wrapper>
   );

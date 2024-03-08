@@ -8,6 +8,7 @@ import elasticsearchIcon from "assets/img/elasticsearch.png";
 import githubIcon from "assets/img/github.png";
 import gitIcon from "assets/img/git.png";
 import gitlabIcon from "assets/img/gitlab.jpg";
+import goIcon from "assets/img/go.png";
 import helmIcon from "assets/img/helm.jpeg";
 import istioIcon from "assets/img/istio.jpeg";
 import kubernetesIcon from "assets/img/kubernetes.png";
@@ -123,4 +124,9 @@ export const sentry = {
 export const gitlab = {
   icon: gitlabIcon,
   name: "Gitlab CI",
+};
+
+export const go = {
+  icon: goIcon,
+  name: "Golang",
 };
